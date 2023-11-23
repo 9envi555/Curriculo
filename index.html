@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Sobre mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="skills.html">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contatc.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./assets/icone-menu.svg" alt="icone menu"></button>
+            </div>
+        </nav>
+        
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Sobre mim</a></li>
+                <li class="nav-item"><a class="nav-link" href="skills.html">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="contatc.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+<script src="script/script.js"></script>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo"><strong class="titulo-destaque"> Olá! </strong></h1>
+            <h1 class="apresentacao__conteudo__titulo">Me chamo <strong class="titulo-destaque"> Vitor Zanatta</strong> </h1>
+            <p class="apresentacao__conteudo__texto"> Sou um programador iniciante, apaixonado por tecnologia e inovação. Estou começando 
+            no ramo da programação, buscando aprender e desenvolver minhas habilidades em diferentes linguagens e ferramentas. Tenho conhecimentos
+            básicos de <strong class="titulo-destaque"> HTML, CSS, Python e JavaScript.</strong></p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/9envi555">
+                    <img src="./assets/github.png">
+                    Github
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/vitor-zanatta-072583237/">
+                    <img src="./assets/linkedin.png">
+                    linkedin
+                </a>
+            </div>
+        </section>
+        <img class="apresentacao__imagem" src="./assets/Imagem.png" alt="Foto Vitor Zanatta">
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por <strong class="titulo-destaque-footer"> Vitor Zanatta </strong> no programa <strong class="titulo-destaque-footer"> Alura Include.</strong></p>
+    </footer>
+</body>
+
+</html>
